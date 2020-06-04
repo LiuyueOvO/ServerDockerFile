@@ -35,6 +35,6 @@ The development environment(c++,python,rust and so on) quickly set up
 	docker run --name=c++ -it -d [IMAGEID]
 
 ## License ##
-This software is licensed under the [MIT license][1]. © 2012 chxuan
+This software is licensed under the [MIT license][1]. © 2020 蓝芷
 
-[1]: https://github.com/chxuan/CZPlayer/blob/master/LICENSE
+[1]: https://github.com/LiuyueOvO/ServerDockerFile/blob/master/LICENSE
