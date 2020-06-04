@@ -14,13 +14,13 @@ The development environment(c++,python,rust and so on) quickly set up
 ## some planes   
 
 - [x] c++
-- [] python
-- [] java
-- [] rust
-- [] typescript
-- [] go
-- [] c#
-- [] swift
+- [ ] python
+- [ ] java
+- [ ] rust
+- [ ] typescript
+- [ ] go
+- [ ] c#
+- [ ] swift
 
 ## How to use
 ### install docker
