@@ -13,26 +13,28 @@ The development environment(c++,python,rust and so on) quickly set up
 	$ you can easily stop and run, reduce system resources
 ## some planes   
 
-- [x] ReadMe
-- 
-- iOS 显示小黑点 
-- Mac
-- Win32
+- [x] c++
+- [] python
+- [] java
+- [] rust
+- [] typescript
+- [] go
+- [] c#
+- [] swift
 
-## How To Create New Samples  3部分
+## How to use
+### install docker
+	#rpm or yum install docker
+	sudo yum install -y docker
+### clone and run
+	git clone https://github.com/LiuyueOvO/ServerDockerFile.git ~/
+    cd ~/ServerDockerFile
+	#cd what you want to use
+	cd ./c++
+    docker build -t c++_img:latest .
+	docker run --name=c++ -it -d [IMAGEID]
 
-### 1、init environment
+## License ##
+This software is licensed under the [MIT license][1]. © 2012 chxuan
 
-	$ python download-engine.py
-
-	$ cd libs/cocos2d-x
-
-	$ python setup.py
-
-### 2、create new sample
-
-	$ cd samples
-
-	$ cocos new ProjectName -l [cpp or js or lua] 
-
-**attension: only create projectName in samples dir, it will be compiled correctly** 跟4级标题差不多
+[1]: https://github.com/chxuan/CZPlayer/blob/master/LICENSE
